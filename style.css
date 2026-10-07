@@ -1,0 +1,138 @@
+/*-------- Police d'écriture ---------*/
+
+@font-face {
+    font-family: "Zen Loop";
+    src: url(./assets/fonts/Zen_Loop/ZenLoop-Regular.ttf);
+}
+
+@font-face {
+    font-family: "ansui";
+    src: url(./assets/fonts/Iansui-Regular.ttf);
+}
+
+@font-face {
+    font-family: "bitcoin";
+    src: url(./assets/fonts/BitcountInk-VariableFont_CRSV\,ELSH\,ELXP\,SZP1\,SZP2\,XPN1\,XPN2\,YPN1\,YPN2\,slnt\,wght.ttf);
+}
+
+/*-------- body ---------*/
+
+body {
+    background-color: white;
+    font-family: "bitcoin";
+    margin: 10px;
+}
+
+body > div {
+    margin: 0 auto;
+    width: 50%;
+    min-width: 800px;
+    background-image: url(./assets/img/Gemini_Generated_Image_w9e5xgw9e5xgw9e5.jpg);
+    background-color: rgb(46, 12, 78);
+    padding: 10px;
+    min-height: 100vh;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+/*-------- ecriture titre ---------*/ 
+
+h2 {
+    font-family: "bitcoin";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    font-family: "bitcoin";
+    text-align: center;
+}
+h3 {
+    font-family: "bitcoin";
+}
+footer h3 {
+    font-family: "bitcoin";
+    text-transform: uppercase;
+}
+
+/*-------- Titre + sommaire --------*/
+
+.encadre {
+    background-color: transparent;
+    border: 2px solid blue;
+    padding: 2px 2px;
+    margin: 10px auto;
+    width: 40%;
+    border-radius: 8px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+li a {
+    color: black;
+}
+
+/*---------- icônes -----------*/
+
+li {
+    list-style-type: none;
+    color: yellow;
+    text-transform: none;
+}
+
+/*---------- icônes exp pro -----------*/
+
+#exp li {
+    list-style-type: disc;
+}
+
+/*----------Compétences-----------*/
+#canva {
+    width: 70%;
+}
+
+#davinci {
+    width: 80%;
+}
+
+#office {
+    width: 60%;
+}
+
+#france {
+    width: 100%;
+}
+#anglais {
+    width: 70%;
+}
+
+.comp {
+    background-color:yellow;
+    height: 16px;
+    box-sizing: border-box;
+}
+
+.back {
+    background-color: black;
+    width: 200px;
+    height: 20px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+textarea {
+    background-image: url(./assets/img/pacman2.png);
+    background-size: 50%;
+    background-position: center;
+    resize: none;
+    height: 200px;
+    width: 400px;
+}
+
+
+
+
